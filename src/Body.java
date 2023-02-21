@@ -1,4 +1,5 @@
 public class Body {
+  //intaite varaibles
   private String color;
   private int numDoors;
 

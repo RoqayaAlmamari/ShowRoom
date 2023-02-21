@@ -15,10 +15,11 @@ public class Truck extends Vehicle {
     }
 
     public void start() {
-        System.out.println("Starting truck...");
+        System.out.println("Here..");
+        System.out.println("Starting a truck...");
     }
 
     public void stop() {
-        System.out.println("Stopping truck...");
+        System.out.println("Stopping a truck...");
     }
 }

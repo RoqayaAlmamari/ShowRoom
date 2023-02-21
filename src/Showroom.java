@@ -2,6 +2,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Showroom {
+    /**
+     * this the showromm that created list for store different vehicles
+     */
     private List<Vehicle> vehicles;
 
     public Showroom() {
