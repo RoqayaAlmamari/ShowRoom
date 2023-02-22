@@ -1,10 +1,10 @@
 public class Manager {
   private String name;
-  private String employeeId;
+  private String  managerId;
 
-  public Manager(String name, String employeeId) {
+  public Manager(String name, String managerId) {
     this.name = name;
-    this.employeeId = employeeId;
+    this.managerId = managerId;
   }
 
   public String getName() {
@@ -16,11 +16,11 @@ public class Manager {
   }
 
   public String getEmployeeId() {
-    return employeeId;
+    return managerId;
   }
 
   public void setEmployeeId(String employeeId) {
-    this.employeeId = employeeId;
+    this.managerId = employeeId;
   }
 
   public void approveSale(SalesEmployee salesEmployee, Customer customer, Vehicle vehicle) {

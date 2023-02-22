@@ -1,8 +1,8 @@
 public class Bicycle extends Vehicle {
     private int numGears;
 
-    public Bicycle(String make, String model, int year, int numGears) {
-        super(make, model, year);
+    public Bicycle(String color, String model, int year, int numGears) {
+        super(color, model, year);
         this.numGears = numGears;
     }
 

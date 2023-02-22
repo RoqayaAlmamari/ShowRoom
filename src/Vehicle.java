@@ -1,16 +1,16 @@
 public abstract class Vehicle {
-    private String make;
+    private String color;
     private String model;
     private int year;
 
     public Vehicle(String make, String model, int year) {
-        this.make = make;
+        this.color = color;
         this.model = model;
         this.year = year;
     }
 
     public String getMake() {
-        return make;
+        return color;
     }
 
     public String getModel() {

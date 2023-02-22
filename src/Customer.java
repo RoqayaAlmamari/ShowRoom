@@ -1,3 +1,4 @@
+//import package.ShowRoom;
 public class Customer {
   private String name;
   private String address;
@@ -32,4 +33,13 @@ public class Customer {
   public void setPhone(String phone) {
     this.phone = phone;
   }
+
+  public void purchesVehicle(Vehicle vehicles) {
+
+
+  }
+
+
 }
+
+

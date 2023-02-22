@@ -1,8 +1,8 @@
 public class Car extends Vehicle {
     private int numDoors;
 
-    public Car(String make, String model, int year, int numDoors) {
-        super(make, model, year);
+    public Car(String color, String model, int year, int numDoors) {
+        super(color, model, year);
         this.numDoors = numDoors;
     }
 
@@ -16,6 +16,7 @@ public class Car extends Vehicle {
 
     public void start() {
         System.out.println("Starting car Here ...");
+
     }
 
     public void stop() {
